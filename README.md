@@ -9,6 +9,7 @@ Welcome to the Awesome Monitoring repository! This collection aims to curate a l
 - [Application Monitoring](#application-monitoring)
 - [Log Management](#log-management)
 - [Network Monitoring](#network-monitoring)
+- [Cron & Job Monitoring](#cron--job-monitoring)
 - [Cloud Monitoring](#cloud-monitoring)
 - [Kubernetes Monitoring](#kubernetes-monitoring)
 
@@ -73,6 +74,20 @@ Network monitoring tools focus on monitoring network devices, traffic, and perfo
 - [Nagios Core Documentation](https://assets.nagios.com/downloads/nagioscore/docs/nagioscore/4/en/quickstart.html): The quick start guide for Nagios Core, helping users get started with network monitoring.
 
 - [PRTG Knowledge Base](https://kb.paessler.com/): The PRTG Knowledge Base with articles and guides on network monitoring best practices and troubleshooting.
+
+## Cron & Job Monitoring
+
+Cron and scheduled job monitoring tools help ensure background tasks, cron jobs, and scheduled processes complete on time and without errors. These tools typically use heartbeat or dead man's switch mechanisms.
+
+### Tools
+
+- [WatchCron](https://watchcron.com/): A cron job monitoring service that uses heartbeat pings to detect failures and delays. Supports duration tracking, multi-channel alerts (email, Slack, webhooks), and works with any language or platform via simple HTTP pings.
+
+- [Healthchecks.io](https://healthchecks.io/): An open-source cron job monitoring service that listens for pings from your cron jobs and sends alerts when pings are late.
+
+### Resources
+
+- [Cron Job Monitoring Best Practices](https://watchcron.com/blog) - Articles on monitoring scheduled tasks and avoiding silent failures.
 
 ## Cloud Monitoring
 
